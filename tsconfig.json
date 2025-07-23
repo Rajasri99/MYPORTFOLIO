@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2020",
+    "types": ["node"],
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -29,5 +31,6 @@
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+    "exclude": ["vite.config.ts"], 
   "references": [{ "path": "./tsconfig.node.json" }]
 }
