@@ -10,6 +10,7 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
+    "jsx": "react-jsx",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -31,6 +32,6 @@
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
-    "exclude": ["vite.config.ts"], 
+  "exclude": ["node_modules", "dist", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
