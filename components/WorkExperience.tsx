@@ -5,7 +5,6 @@ import {
   Calendar,
   Building,
   Code,
-  Users,
   Target,
   Lightbulb,
   Rocket,

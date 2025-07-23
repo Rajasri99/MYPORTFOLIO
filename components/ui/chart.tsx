@@ -1,7 +1,7 @@
 "use client";
-
 import * as React from "react";
 import * as RechartsPrimitive from "recharts";
+
 
 import { cn } from "./utils";
 
@@ -125,6 +125,9 @@ function ChartTooltipContent({
     indicator?: "line" | "dot" | "dashed";
     nameKey?: string;
     labelKey?: string;
+    payload?: any[];
+    label?: string;
+
   }) {
   const { config } = useChart();
 

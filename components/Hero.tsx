@@ -8,7 +8,7 @@ const Hero = () => {
     offset: ["start start", "end start"]
   })
 
-  const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"])
+  // const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"])
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0])
 
   // Use the new HD image URL provided by user

@@ -1,8 +1,8 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Calendar, Users, Monitor, Smartphone, ExternalLink, ArrowRight, CheckCircle } from 'lucide-react'
-import project1Image from 'figma:asset/34d54410a2ac253e3d1beb71e32dcef9d51da27a.png'
-import project2Image from 'figma:asset/6a740e0522adc3ca81100adecd2bbc9034423e17.png'
-import project3Image from 'figma:asset/b55efd8277c23f7f455589f18eec4c54741aa8ef.png'
+// import project1Image from 'figma:asset/34d54410a2ac253e3d1beb71e32dcef9d51da27a.png'
+// import project2Image from 'figma:asset/6a740e0522adc3ca81100adecd2bbc9034423e17.png'
+// import project3Image from 'figma:asset/b55efd8277c23f7f455589f18eec4c54741aa8ef.png'
 
 interface ProjectDetailProps {
   projectId: number | null
@@ -16,7 +16,7 @@ export default function ProjectDetail({ projectId, onClose }: ProjectDetailProps
       title: "Entertainment Streaming Platform",
       category: "UI/UX Design",
       description: "Modern streaming interface design featuring content discovery, user personalization, and seamless viewing experience with focus on user engagement and retention.",
-      image: project1Image,
+      image: "	https://i.postimg.cc/SRCdhs6g/cover.png",
       year: "2024",
       industry: "Entertainment / Media Streaming",
       timeline: "3 Weeks",
@@ -53,7 +53,7 @@ export default function ProjectDetail({ projectId, onClose }: ProjectDetailProps
       title: "Inventory and Procurement Management",
       category: "Enterprise SaaS",
       description: "Comprehensive management system for inventory tracking, procurement processes, and vendor management designed for enterprise operations and workflow optimization.",
-      image: project2Image,
+      image: "https://i.postimg.cc/BQ27WhNJ/Desktop-2.jpg",
       year: "2025",
       industry: "Enterprise SaaS / Internal Operations",
       timeline: "2 Weeks",
@@ -90,7 +90,7 @@ export default function ProjectDetail({ projectId, onClose }: ProjectDetailProps
       title: "Instagram Redesign Case Study",
       category: "UI & UX Case Study",
       description: "Comprehensive redesign exploration of Instagram interface with 80+ screens, focusing on improved user experience, modern design principles, and enhanced social interactions.",
-      image: project3Image,
+      image: "https://i.postimg.cc/6p0HqyDS/Screenshot-2025-07-22-180901.png",
       year: "2023",
       industry: "Social Media / Mobile App",
       timeline: "4 Weeks",
